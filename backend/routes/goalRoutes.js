@@ -6,11 +6,13 @@ const{getGoals ,
     deleteGoal,} =require("../controllers/goalController")
 //router.get('/', getGoals);
 //router.post('/',setGoal);   because both are the same rout '/' : replace with :-
-router.route('/').get(getGoals).post(setGoal)
+const { protect } = require('../middleware/authMiddleware')
+
+router.route('/').get(protect,getGoals).post(protect,setGoal)
 
 //router.put('/:id',updateGoal);
 //router.delete('/:id', deleteGoal);
 //because both are the same rout '/:id' : replace with :-
-router.route('/:id').put(updateGoal).delete(deleteGoal)
+router.route('/:id').put(protect,updateGoal).delete(protect,deleteGoal)
 
 module.exports = router
