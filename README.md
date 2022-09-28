@@ -21,7 +21,7 @@ npm install
 ### Run Server
 
 ```
-npm run server
+npm start
 ```
 
 ## Demo 
