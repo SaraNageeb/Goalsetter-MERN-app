@@ -2,6 +2,20 @@
 
 This is the goalsetter app from the [Learn the MERN Stack](https://www.youtube.com/watch?v=-0exw-9YJBo) series on YouTube.
 
+
+## Description
+
+ The MERN App
+ - Express & MongoDB Rest API
+ - JWT Authentication
+ - Frontend Authentication 
+ - Redux Toolkit
+ - Deployment
+ 
+ ![rest-crud](https://user-images.githubusercontent.com/46402288/192665389-3c9e3d5f-d050-48bc-a1ed-42a8d751b4e1.png)
+
+ 
+
 ## Usage
 
 env file only me allowed [acces](https://dashboard.render.com/web/srv-ccpnpbien0hr84nb5iog/env)
