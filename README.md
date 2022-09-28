@@ -24,6 +24,7 @@ npm run server
 ```
 
 ## Demo
+[try it yourself](https://goalsetter-sse9.onrender.com/login)
 
  
  
