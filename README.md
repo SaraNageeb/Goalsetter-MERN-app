@@ -4,6 +4,8 @@ This is the goalsetter app from the [Learn the MERN Stack](https://www.youtube.c
 
 ## Usage
 
+env file only me allowed [acces](https://dashboard.render.com/web/srv-ccpnpbien0hr84nb5iog/env)
+
  
 ### Install dependencies
 
